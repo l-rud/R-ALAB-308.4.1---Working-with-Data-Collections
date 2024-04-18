@@ -15,8 +15,8 @@ Cache this two-dimensional array in a variable for later use.
 
 const str = "ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26";
 
-//Declare a variable that stores the number of columns in each row
-//of data within the CSV.
+/*Declare a variable that stores the number of columns in each row
+of data within the CSV.*/
 let numberOfColumns = 1;
 // variable that tells whether we are in the first raw or not
 let firstRow = true;
