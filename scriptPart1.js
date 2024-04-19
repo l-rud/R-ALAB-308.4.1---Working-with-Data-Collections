@@ -17,7 +17,12 @@ const str = "Index,Mass (kg),Spring 1 (m),Spring 2 (m)\n1,0.00,0.050,0.050\n2,0.
 let cells = ["", "", "", ""];
 let column = 0; // index of cells.arrey element we are currently working with
 
-// iterate through str string
+/* iterate through str string
+Store each “cell” of data in a variable.
+When you encounter a comma, move to the next cell.
+When you encounter the “\r\n” sequence, move to the next “row.”
+Log each row of data.
+*/
 for (let i = 0; i < str.length; i++) {
   if (str[i] === ',') {
     column++;
