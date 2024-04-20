@@ -21,8 +21,8 @@ console.log(inputArray);
 /*use the values of each object within the array and the array’s length property to calculate 
 the average age of the group. This calculation should be accomplished using a loop.*/
 let sum = 0;
-for (const record of inputArray) {
-    sum += parseInt(record.age);
+for (const record of inputArray) { //iterates over an array of objects, starting from 0
+    sum += parseInt(record.age); // parseInt() function takes property in the string format and then converts it to an integer.
 }
 const average = sum / inputArray.length;
 
